@@ -1,0 +1,38 @@
+{
+  "name": "getRANTr",
+  "version": "2.1.0",
+  "description": "JavaScript Debugging Playground",
+  "main": "public/index.html",
+  "scripts": {
+    "nuke": "rimraf node_modules & npm install",
+    "postinstall": "node import todd",
+    "start": "gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toddhgardner/soliloquy2.git"
+  },
+  "author": "Todd H Gardner <todd@trackjs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toddhgardner/getRANTr/issues"
+  },
+  "homepage": "https://github.com/toddhgardner/getRANTr#readme",
+  "engines": {
+    "node": "18.18.2"
+  },
+  "dependencies": {
+    "body-parser": "1.20.2",
+    "express": "4.18.2",
+    "nedb": "1.8.0",
+    "node": "18.18.2"
+  },
+  "devDependencies": {
+    "gulp": "4.0.2",
+    "gulp-nodemon": "2.5.0",
+    "gulp-sass": "5.1.0",
+    "gulp-util": "3.0.8",
+    "rimraf": "5.0.5",
+    "sass": "^1.69.5"
+  }
+}
